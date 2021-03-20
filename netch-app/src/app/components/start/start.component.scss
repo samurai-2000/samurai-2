@@ -1,26 +1,12 @@
-.parallax-container {height: 700px;}
+.parallax-container {
+    height: 700px; 
+    user-select: none;
+}
 
 section {min-height: 100vh;}
 h1 {margin: 5rem 0;}
-.container {
-   section {min-height: 50vh;} 
-   i {font-size: 7rem;}
 
-    .row {
-        display: flex;
-        width: 100%;
-        flex-flow: wrap;
-    }
-    .col {
-        min-width: 270px !important;
-        margin: 0 auto;
-    }
-
-    .card-panel {
-        display: flex;
-        justify-content: space-evenly;
-        flex-flow: column;
-        min-height: 300px;
-        user-select: none;
-    }
+#section-5 {
+    display: flex;
+    align-items: center;
 }
